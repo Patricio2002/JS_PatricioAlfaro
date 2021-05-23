@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(37, 37, 37);
+}
+h1{
+  position: absolute;
+	color: rgb(0, 140, 255);
+  font-family: Papyrus;
+  left: 39%;
+}
+#btn{
+	position:	relative;
+	margin-top: 50%;
+	left: 45%;
+  width: 100px;
+	border-radius: 1em 0;
+	background-color: rgb(255, 102, 0);
+	border-color: rgb(255, 38, 0);
+  color: white
+
+}
+section{
+  position: absolute;
+  background-color: rgb(93, 93, 95);
+  width: 500px;
+  height: 500px;
+  left: 30%;
+	top: 20%;
+}
+
+#amarillo{
+	position: relative;
+	background-color: #edd100;
+	width: 200px;
+	height: 200px;
+	top: 50px;
+	left: 50px;
+}
+
+#rojo{
+position: absolute;
+background-color: #c91100;
+width: 200px;
+height: 200px;
+left: 250px;
+top: 50px;
+}
+
+#azul{
+	position: absolute;
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+  top:250px;
+  left: 50px;
+  
+}
+#verde{
+  position: absolute;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	left: 250px;
+	top: 250px;
+}
+#g{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	display: none;
+}
+#p{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	display: none;
+}
