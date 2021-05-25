@@ -1,0 +1,672 @@
+/* °Fondo-------------------------------------*/
+body{
+    margin: 0%;
+    font-size: 150%;
+}
+aside{
+    position: absolute;
+    width: 16.3%;
+    height: 100%;
+    
+}
+.nombre{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70%;
+}
+#nombre{
+  position: absolute;
+  left: 80%;
+}
+/* °Color-----------------------*/
+.color{
+    position: absolute;
+    height: 12%;
+    width: 35%;
+} 
+/*=boton rojo*/
+#boton1{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    background-color: red;
+  }
+  /*=boton rojo con hover*/
+  #boton1:hover{
+    background-color: tomato;
+    cursor: pointer;
+  }
+  /*=boton azul*/
+  #boton2{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    background-color:  rgb(36, 16, 122);
+  }
+   /*=boton azul con hover*/
+  #boton2:hover{
+    background-color: blue;
+    cursor: pointer;
+  }
+   /*=boton dorado*/
+  #boton3{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    background-color: gold;
+  }
+  /*=boton dorado con hover*/
+  #boton3:hover{
+    background-color: yellow;
+    cursor: pointer;
+  }
+     /*=boton verde*/
+  #boton4{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    background-color: chocolate;
+    
+  }
+   /*=boton verde con hover*/
+  #boton4:hover{
+    background-color: peru;
+    cursor: pointer;
+  }
+.accion{
+    position: absolute;
+    height: 12%;
+    width: 100%;
+}
+#boton5{
+    position: absolute;
+    left: 0%;
+    top:55%;
+    font-size: 20PX;
+    text-align: center;
+    color: black;
+    border: solid black;
+    border-right: none;
+    color: black;
+    
+  }
+  #boton5:hover{
+    color: darkblue;
+    cursor: pointer;
+  }
+
+  #boton6{
+    position: absolute;
+    left: 0%;
+    top:70%;
+    font-size: 20PX;
+    text-align: center;
+    border: solid black;
+    border-right: none;
+  }
+  #boton6:hover{
+    color: darkblue;
+    cursor: pointer;
+  }
+
+  #boton7{
+    position: absolute;
+    left: 0%;
+    top:85%;
+    font-size: 20px;
+    text-align: center;
+    border: solid black;
+    border-right: none;
+  }
+  #boton7:hover{
+    color: darkblue;
+    cursor: pointer;
+  }
+ .texto{
+    color: black;
+    font-family: sans-serif;
+  }
+
+  #cambiar{
+    position: absolute;
+    left: 7%;
+    top: 3%;
+    font-size: 25px;
+  }
+
+  #accion{
+    position: absolute;
+    left: 30%;
+    top: 48%;
+    font-size: 25px;
+  }
+/* =ojo posicion*/
+.ojo{
+    position: absolute;
+    top: 40%;
+    width: 25%;
+    height: 19%;
+    background-color: black;
+}
+/* =ceja posicion*/
+.ceja{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 25%;
+    height: 17%;
+    border: none;
+    border-top: solid;
+    border-radius: 50%;
+}
+/* =oreja1 clase*/
+.orej1{
+    position: absolute;
+    top: 20%;  
+    width: 10%;
+    height: 10%;
+    border: none;
+    border-top: solid 4px #9AD9AA;
+    border-radius: 50%;
+}
+/* =oreja2 clase*/
+.orej2{
+    position: absolute;
+    top: 21%;  
+    width: 10%;
+    height: 10%;
+    border: none;
+    border-bottom: solid 4px #9AD9AA;
+}
+/* =relleno1 clase*/
+.rell1{
+    position: absolute;
+    top: 21.55%;  
+    width: 10%;
+    height: 9.8%;
+    background-color: #D9663D;
+}
+/* =relleno2 clase*/
+.rell2{
+    position: absolute;
+    top: 22.5%;  
+    width: 7%;
+    height: 3%;
+    background-color: #BF6533;
+}
+/* =cabeza*/
+#cabeza{
+    position: absolute;
+    top:20%;
+    left: 40%;
+    z-index: 1;
+    height: 20%;
+    width: 14%;
+    border-radius: 50%;
+    background-color: #9AD9AA;
+}
+/* °ojo derecho---------------------------------*/
+#der{
+    position: absolute;
+    left: 60%;
+    border-radius: 50% 50% 50% 0em;
+}
+/* °ojo izquierdo--------------------------------*/
+#izq{
+    position: absolute;
+    left: 13.3%;
+    border-radius: 50% 50% 0em 50%;
+}
+/* =nariz*/
+#nariz{
+    position: absolute;
+    top: 57%;
+    left: 45%;
+    width: 10%;
+    height: 17%;
+    border: none;
+    border-top: solid;
+    border-radius: 50%;
+}
+/* =sonrisa*/
+#sonrisa{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    border: none;
+    border-bottom: solid;
+    border-radius: 50%;
+    width: 20%;
+    height: 13%;
+}
+/* =Oreja1 izquierda especificaciones*/
+#orejIzq1{
+    position: absolute;
+    top: 20.1%;
+    left: 31.5%;
+    transform: rotate(30deg);
+}
+/* =Oreja1 derecha especificaciones*/
+#orejDer1{
+    left: 52.6%;
+    transform: rotate(330deg);
+}
+/* =Oreja2 izquierda especificaciones*/
+#orejDer2{
+    left: 52%;
+    transform: rotate(300deg);
+    border-radius: 0em 0em 0em 50%;
+    border-bottom: solid 4px #9AD9AA;
+    border-left: solid 4px #9AD9AA;
+}
+/* =Oreja2 derecha especificaciones*/
+#orejIzq2{
+    left: 32%;
+    transform: rotate(60deg);
+    border-radius: 0em 0em 50% 0em;
+    border-right: solid 4px #9AD9AA;
+}
+/* =relleno1 izquierda especificaciones*/
+#rellIzq1{
+    left: 32%;
+    transform: rotate(60deg);
+    z-index: -1;
+    border-radius: 90% 0em 50% 0em;
+}
+/* =relleno1 derecha especificaciones*/
+#rellDer1{
+    left: 52%;
+    z-index: -1;
+    transform: rotate(300deg);
+    border-radius: 0em 90% 0em 50%;
+}
+/* =relleno2 izquierda especificaciones*/
+#rellIzq2{
+    left: 35.2%;
+    transform: rotate(45deg);
+    z-index: -1;
+    border-radius: 100% 0em 0em 0em;
+}
+/* =relleno2 derecha especificaciones*/
+#rellDer2{
+    left: 52%;
+    z-index: -1;
+    transform: rotate(310deg);
+    border-radius: 0em 100% 0em 0em;
+}
+/* °CUERPO BABY YODA-----------------------------------------------------------------------*/
+#collar{
+    position: absolute;
+    top: 37%;
+    left: 40.5%;
+    height: 6%;
+    width: 13.3%;
+    background-color: #B48E39;
+    border: black;
+    border-radius: 1em;
+}
+#arms{
+    position: absolute;
+    top: 40.3%;
+    left: 40.1%;
+    height: 6.3%;
+    width: 14%;
+    background-color: #644501;
+    border-radius: 0.8em;
+}
+#mangaright{
+  z-index: 2;
+    position: absolute;
+    top: 42.5%;
+    left: 42.8%;
+    height: 4.5%;
+    width: 2%;
+    background-color: #B48E39;
+    border-radius: 0.6em;
+    border: solid 0.5px black;
+    animation: comer 5s ease-in infinite paused;
+}
+#mangaleft{
+    position: absolute;
+    top: 42.5%;
+    left: 49.4%;
+    height: 4.5%;
+    width: 2%;
+    background-color: #B48E39;
+    border: solid 0.5px black;
+    border-radius: 30%;
+    animation: fuerza 5s ease-in infinite paused;
+}
+#manoIzq{
+  z-index: 3;
+  position: absolute;
+  top: 42%;
+  left: 44%;
+  height: 5%;
+  width: 2.5%;
+  border-radius: 50%;
+  background-color: #9AD9AA;
+  border: solid 0.5px black;
+  animation: comer1 5s ease-in infinite paused;
+}
+#manoDer{
+  z-index: 3;
+  position: absolute;
+  top: 42%;
+  left: 47.5%;
+  height: 5%;
+  width: 2.5%;
+  border-radius: 50%;
+  background-color: #9AD9AA;
+  border: solid 0.5px black;
+  animation: force 5s ease-in infinite paused;
+}
+#comida{
+  z-index: 2;
+  position: absolute;
+  top: 40.7%;
+  left: 46.3%;
+  width: 1.5%;
+  height: 3%;
+  border-radius: 50%;
+  background-color: tomato;
+  animation: comer2 5s ease-in infinite paused;
+}
+#cintura{
+    position: absolute;
+    top: 46.3%;
+    left: 41.9%;
+    height: 1.5%;
+    width: 11%;
+    background-color: #644501;
+    border-radius: 30%;
+}
+#bajo{
+    position: absolute;
+    top: 46.7%;
+    left: 39%;
+    height: 9%;
+    width: 16.5%;
+    background-color: #644501;
+    border-radius:  1.4em;
+}
+#cup{
+    position: absolute;
+    top: 41.7%;
+    left: 44.7%;
+    height: 7.5%;
+    width: 5.1%;
+    background-color: rgb(36, 16, 122);
+    border-radius:  30%;
+}
+#bordercup{
+    position: absolute;
+    top: 41.7%;
+    left: 44.71%;
+    height: 1.5%;
+    width: 5%;
+    background-color: rgb(4, 0, 22);
+    border-radius:  70%;
+    border-width: 10px;
+}
+/*=Animaciones---------------------------------------------*/
+
+/* °COMER----------------------*/
+@keyframes comer{
+  20%{
+    top: 40%;
+    left: 43.8%;
+  }
+  26%{
+    top: 40%;
+    left: 43.8%;
+    rotate: 0%;
+  }
+  50%{
+    top: 36%;
+    transform: rotate(-30deg);
+  }
+  60%{
+    top: 36%;
+    transform: rotate(-30deg);
+  }
+}
+@keyframes comer1{
+  20%{
+    top: 40%;
+    left: 45%;
+  }
+  50%{
+    top: 34%;
+  }
+}
+@keyframes comer2{
+  20%{
+    top: 40.7%;
+  }
+  50%{
+    top: 34%;
+    width: 1.5%;
+  }
+  51%{
+    width: 0%;
+  }
+  100%{
+    width: 0%;
+  }
+}
+/* °Dormir---------------------*/
+
+.eyes{
+  position: absolute;
+  top: 50%;
+  width: 25%;
+  height: 4%;
+  background-color: black;
+}
+#eyeright{ 
+  position: absolute;
+  left: 60%;
+  border-radius: 50% 50% 50% 0em;
+}
+/* °ojo izquierdo---------*/
+#eyeleft{
+  position: absolute;
+  left: 13.3%;
+  border-radius: 50% 50% 0em 50%;
+}
+
+#upzeta{
+  position: absolute;
+  left: 50%;
+  top: 17.5%;
+  width: 2.2%;
+  height: 0.8%;
+  background-color: black;
+  animation: desvanecer1 4s linear infinite;
+  
+}
+#downzeta{
+  position: absolute;
+  left: 50.2%;
+  top: 19.6%;
+  width: 2.2%;
+  height: 0.8%;
+  background-color: black;
+  animation: desvanecer1 4s linear infinite;
+  
+}
+#middlezeta{
+  position: absolute;
+  left: 51%;
+  top: 17.2%;
+  width: 0.46%;
+  height: 3.9%;
+  background-color: black; 
+  transform: rotate(60deg);
+  animation: desvanecer1 4s linear infinite;
+
+}
+#uz2{
+  position: absolute;
+  left: 53%;
+  top: 11.8%;
+  width: 2.8%;
+  height: 0.9%;
+  background-color: black;
+  animation: desvanecer2 4s linear infinite;
+}
+#dz2{
+  position: absolute;
+  left: 53%;
+  top: 15%;
+  width: 2.8%;
+  height: 0.9%;
+  background-color: black;
+  animation: desvanecer2 4s linear infinite;
+}
+#mz2{
+  position: absolute;
+  left: 54%;
+  top: 11.3%;
+  width: 0.46%;
+  height: 5.5%;
+  background-color: black; 
+  transform: rotate(55deg);
+  animation: desvanecer2 4s linear infinite;
+
+}
+#bigz{
+  position: absolute;
+  left: 57.5%;
+  top: 4%;
+  width: 3.8%;
+  height: 1%;
+  background-color: black;
+  animation: desvanecer3 4s linear infinite;
+}
+#granz{
+  position: absolute;
+  left: 57.5%;
+  top: 10%;
+  width: 3.8%;
+  height: 1%;
+  background-color: black;
+  animation: desvanecer3 4s linear infinite;
+
+}
+#largez{
+  position: absolute;
+  left: 59%;
+  top: 3%;
+  width: 0.6%;
+  height: 8.8%;
+  background-color: black; 
+  transform: rotate(45deg);
+  animation: desvanecer3 4s linear infinite;
+}
+
+@keyframes desvanecer1{
+  50%{
+    background-color: rgba(85, 85, 85, 0);
+  }
+  55%{
+    background-color: rgba(221, 214, 214, 0);
+  }
+}
+
+@keyframes desvanecer2{
+  50%{
+    background-color: rgba(85, 85, 85, 0);
+  }
+  78%{
+    background-color: rgba(221, 214, 214, 0);
+  }
+}
+@keyframes desvanecer3{
+  50%{
+    background-color: rgba(85, 85, 85, 0);
+  }
+  93%{
+    background-color: rgba(221, 214, 214, 0);
+  }
+
+}
+  
+/* Usar la fuerz---------------------*/
+
+#roca{
+  position: absolute;
+  top: 85%;
+  left: 30%;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background:#4A311D  ;
+  animation-delay: rokita 5s ease-in infinite paused ;
+}
+
+@keyframes rokita{
+  10%{
+    top: 85%;
+    left: 35%;
+  }
+  20%{
+    top: 85%;
+    left: 40%;
+  }
+  30%{
+    top: 85%;
+    left: 45%;
+  }
+  40%{
+    top: 85%;
+    left: 50%;
+  }
+  50%{
+    top: 85%;
+    left: 60%;
+  }
+
+}
+
+@keyframes force{
+  10%{
+    top: 43%;
+    left: 48%;
+  }
+  20%{
+    top: 43.5%;
+    left: 48.5%;
+  }
+  30%{
+    top: 44.5%;
+    left: 49.2%;
+  }
+  40%{
+    top: 45%;
+    left: 51%;
+  }
+  50%{
+    top: 45%;
+    left: 52%;
+  }
+}
+
+@keyframes fuerza{
+  20%{
+    top: 43%;
+    transform: rotate(-30deg);
+  }
+  50%{
+    top: 42.5%;
+    left: 52%;
+    transform: rotate(-100deg);
+  }
+}
+
+
+
+
+
