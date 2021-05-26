@@ -1,0 +1,13 @@
+*{
+  font-family: sans-serif;
+}
+table{
+  border-collapse: collapse;
+  margin: auto;
+}
+thead{
+  background-color: #0178dc;
+}
+tbody{
+  text-align: center;
+}

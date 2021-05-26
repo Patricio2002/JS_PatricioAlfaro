@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./statics/style.css">
+    <title>Consulta carreras</title>
+    <script src="./dynamics/js/jquery.min.js"></script>
+    <script src="./dynamics/js/script.js"></script>
+  </head>
+  <body>
+    <div>
+      <input id="carrera" type="text" name="carrera" placeholder="Ingresa un dato" value="" required>
+      <button type="button" class="submitcarr" name="button">Enviar</button>
+      <br><br>
+      Filtros de busqueda
+      <br><br>
+      Modalidad:
+      <select class="filtmod" name="modalidad">
+        <option value="0">Todas</option>
+        <option value="1">A Distancia</option>
+        <option value="2">Abierto</option>
+        <option value="3">Escolarizado</option>
+      </select>
+    </div>
+    <br><br>
+    <div class="results"></div>
+  </body>
+</html>
